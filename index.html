@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Лабораторная работа - Сравнение автомобилей</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #2c3e50;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #ffffff;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid #cccccc;
+        padding: 10px 12px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background-color: #34495e;
+        color: #ffffff;
+      }
+
+      caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #2c3e50;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      p {
+        margin: 4px 0;
+      }
+
+      tfoot td {
+        background-color: #f8f9fa;
+        font-style: italic;
+        color: #555555;
+      }
+
+      /* 
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }*/
+    </style>
+  </head>
+  <body>
+    <h1>Сравнительный анализ характеристик автомобилей</h1>
+
+    <table>
+      <caption>
+        Сравнение моделей: Lamborghini, Voyah и Jaguar
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Характеристика</th>
+          <th>
+            Lamborghini
+            <p><small>Производитель: Италия</small></p>
+          </th>
+          <th>
+            Voyah
+            <p><small>Производитель: Китай</small></p>
+          </th>
+          <th>
+            Jaguar
+            <p><small>Производитель: Великобритания</small></p>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td><strong>Дополнительная информация</strong></td>
+          <td>
+            <p>Флагманский суперкар бренда.</p>
+            <ul>
+              <li>Марка: Lamborghini</li>
+              <li>Модель: Revuelto</li>
+            </ul>
+          </td>
+          <td>
+            <p>Премиальный технологичный кроссовер.</p>
+            <ul>
+              <li>Марка: Voyah</li>
+              <li>Модель: Free</li>
+            </ul>
+          </td>
+          <td>
+            <p>Классический спортивный седан.</p>
+            <ul>
+              <li>Марка: Jaguar</li>
+              <li>Модель: F-Type</li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td><strong>1. Самая дорогая модель</strong></td>
+          <td>Revuelto (от $600 000)</td>
+          <td>Dreamer Ev (от $85 000)</td>
+          <td>F-Type SVR (от $130 000)</td>
+        </tr>
+
+        <tr>
+          <td><strong>2. Самая дешёвая модель</strong></td>
+          <td>Urus (от $230 000)</td>
+          <td>Passion (от $55 000)</td>
+          <td>XE (от $45 000)</td>
+        </tr>
+
+        <tr>
+          <td><strong>3. Двигатель</strong></td>
+          <td>6.5 л V12 + 3 электромотора (Гибрид)</td>
+          <td>Электро / Гибрид (1.5 л + Электро)</td>
+          <td>5.0 л V8 Бензиновый с нагнетателем</td>
+        </tr>
+
+        <tr>
+          <td><strong>4. Расход топлива</strong></td>
+          <td>11.8 л / 100 км (в смешанном цикле)</td>
+          <td>0 л (EV) / 6.5 л (в режиме генератора)</td>
+          <td>10.7 л / 100 км</td>
+        </tr>
+
+        <tr>
+          <td><strong>5. Скорость (разгон 0-100 км/ч)</strong></td>
+          <td><strong>2.5 сек</strong></td>
+          <td><strong>4.4 сек</strong></td>
+          <td><strong>3.7 сек</strong></td>
+        </tr>
+
+        <tr>
+          <td><strong>6. Наличие экологических сертификатов</strong></td>
+          <td>Euro 6d / Сертифицирован</td>
+          <td>Euro 6d / Зелёный сертификат EV</td>
+          <td>Euro 6d-Temp</td>
+        </tr>
+
+        <tr>
+          <td><strong>7. Гарантийный срок</strong></td>
+          <td>3 года без ограничения пробега</td>
+          <td>5 лет или 100 000 км</td>
+          <td>3 года или 100 000 км</td>
+        </tr>
+
+        <tr>
+          <td><strong>8. Максимальная скорость</strong></td>
+          <td><strong>350 км/ч</strong></td>
+          <td><strong>200 км/ч</strong></td>
+          <td><strong>300 км/ч</strong></td>
+        </tr>
+
+        <tr>
+          <td><strong>9. Тип трансмиссии</strong></td>
+          <td>Роботизированная (с двумя сцеплениями)</td>
+          <td>Редуктор (одноступенчатый)</td>
+          <td>Автоматическая</td>
+        </tr>
+
+        <tr>
+          <td><strong>10. Количество передач</strong></td>
+          <td>8-ступенчатая</td>
+          <td>1-ступенчатый редуктор</td>
+          <td>8-ступенчатая</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="4">
+            <p>
+              <strong>Примечание:</strong> Данные указаны для базовых
+              комплектаций актуальных моделей брендов. Цены и характеристики
+              могут варьироваться в зависимости от региона и дополнительных
+              опций.
+            </p>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
